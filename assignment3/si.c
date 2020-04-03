@@ -11,7 +11,7 @@
      printf("enter time(in years)\n");
      scanf("%f",&t);
      printf("Principal amount:%f\nAnnual rate of interest:%f\nTime (in years):%f",p,r,t);
-     printf("\nSimple Interest:%f\n",p*r*t);
+     printf("\nSimple Interest:%f\n",((p*r*t)/100));
      
      return 0;
 
